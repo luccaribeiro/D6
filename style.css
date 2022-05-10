@@ -1,0 +1,84 @@
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsla(225, 100%, 94%, 0.644);
+}
+
+.bloco {
+  text-align: center;
+  margin: 100px auto;
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  border-radius: 25px;
+}
+.bloco-dentro {
+  margin: 0 40px;
+}
+
+.hero {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  width: 400px;
+}
+.texto {
+  color: rgb(102, 101, 101);
+  font-size: 1.1rem;
+}
+.titulo {
+  font-weight: 900;
+}
+
+.annual-plan {
+  background-color: rgba(228, 228, 228, 0.158);
+  display: flex;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+.annual-plan img {
+  margin: 20px;
+  width: 48px;
+  height: 50px;
+}
+.annual-plan p {
+  margin-top: 22px;
+  font-size: 1em;
+}
+.annual-plan small {
+  opacity: 70%;
+  font-size: 1em;
+}
+.change {
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 90px;
+  color: rgb(98, 0, 255);
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  height: 45px;
+  border-radius: 10px;
+  border: 0;
+}
+.button1 {
+  background-color: rgb(98, 0, 255);
+  color: white;
+  font-weight: 900;
+}
+.button2 {
+  background-color: white;
+  color: grey;
+  font-weight: 900;
+}
+.button2:hover {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.button1:hover {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
